@@ -1,0 +1,48 @@
+body {
+    background-color: #38A3A5;
+}
+.pizzas{
+    background-color: pink;
+    border-radius: 1em;
+}
+
+
+.pizza {
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 1em;
+    margin: 5px;
+}
+
+.large {
+    background-color: #57CC99;
+    
+}
+
+.medium {
+    background-color: #80ED99;
+}
+
+.small {
+    background-color: #22577A;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #C7F9CC;
+}
+.align{
+    text-align: center;
+}
+@media(min-width: 960px){
+    .pizzas {
+    display: flex;
+    }
+}
+.rigth{
+    text-align: right;
+}
